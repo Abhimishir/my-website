@@ -874,13 +874,13 @@ ul.elementor-nav-menu--dropdown a:hover {
     }
 }
 
-@media (max-width:-1) {
+@media (max-width:767px) {
     .elementor-nav-menu--dropdown-mobile_extra .elementor-nav-menu--main {
         display: none
     }
 }
 
-@media (min-width:-1) {
+@media (min-width:768px) {
     .elementor-nav-menu--dropdown-mobile_extra .elementor-menu-toggle,
     .elementor-nav-menu--dropdown-mobile_extra .elementor-nav-menu--dropdown {
         display: none
@@ -906,13 +906,13 @@ ul.elementor-nav-menu--dropdown a:hover {
     }
 }
 
-@media (max-width:-1) {
+@media (max-width:1024px) {
     .elementor-nav-menu--dropdown-tablet_extra .elementor-nav-menu--main {
         display: none
     }
 }
 
-@media (min-width:-1) {
+@media (min-width:1025px) {
     .elementor-nav-menu--dropdown-tablet_extra .elementor-menu-toggle,
     .elementor-nav-menu--dropdown-tablet_extra .elementor-nav-menu--dropdown {
         display: none

@@ -107,11 +107,11 @@
                     o = n.data("behavior"),
                     a = n.find("a, a *"),
                     l = e(t.target).is(a),
-                    d = s ? .is_external ? s.is_external : "_self";
-                if ("hover" === o || i === this) !l && s ? .url && window.open(s.url, d);
+                    d = s ?.is_external ? s.is_external : "_self";
+                if ("hover" === o || i === this) !l && s ?.url && window.open(s.url, d);
                 else {
                     if (!n.hasClass("item-opened")) return i = "", e(this).closest(".elementskit-image-accordion-wraper").find(".ekit-image-accordion-item").removeClass("item-opened"), void n.addClass("item-opened");
-                    if (n.hasClass("item-opened")) return void(!l && s ? .url && window.open(s.url, d))
+                    if (n.hasClass("item-opened")) return void(!l && s ?.url && window.open(s.url, d))
                 }
             }))
         },
@@ -334,7 +334,7 @@
                     trackColor: i.barbg || undefined,
                     gradientChart: !1
                 };
-            "gradient" === i ? .pie_color_style && (s = {
+            "gradient" === i ?.pie_color_style && (s = {
                 gradientChart: !0,
                 barColor: i.color || undefined,
                 gradientColor1: i.gradientcolor2 || undefined,
@@ -433,7 +433,7 @@
                 i = t.find(".ekit_offcanvas-sidebar, .ekit_close-side-widget, .ekit-overlay"),
                 s = t.find(".ekit-sidebar-group").data("settings");
             i.on("click", (function(t) {
-                t.preventDefault(), n.toggleClass("ekit_isActive"), "yes" === s ? .disable_bodyscroll && (n.hasClass("ekit_isActive") ? e("body").css("overflow", "hidden") : e("body").css("overflow", ""))
+                t.preventDefault(), n.toggleClass("ekit_isActive"), "yes" === s ?.disable_bodyscroll && (n.hasClass("ekit_isActive") ? e("body").css("overflow", "hidden") : e("body").css("overflow", ""))
             }))
         },
         Back_To_Top: function(t) {
